@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+    <li><a href="{{ url_for('login') }}">Login</a> </li>
+    <li><a href="{{ url_for('signup') }}">Sign Up</a> </li>
+    <li><a href="{{ url_for('distance') }}">Distance</a> </li>
+</ul>
+<h1>Welcome to Index Page </h1>
+{% endblock %}
